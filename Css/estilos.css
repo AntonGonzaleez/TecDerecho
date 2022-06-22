@@ -1,0 +1,176 @@
+ 
+ body{
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fd/Facultad_de_Derecho_%288617641510%29.jpg);
+     background-size: cover;
+ }
+
+
+ nav{
+     position: absolute;
+     font-family: 'Roboto Slab', serif;
+     top: 02px;
+     left: 1060px;
+ }
+
+
+
+
+
+ ul .menu{
+     position: relative;
+     top: 75px;
+     display: flex;
+     flex-direction: column;
+     background-color: beige;
+     border: 3px solid black;
+     
+     border-radius: 15px;
+ }
+
+ .titulo {    
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color:rgb(1, 8, 10, 0.791)
+}
+
+
+
+
+.referencias {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 500px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    list-style-type: none;
+    
+    
+     
+}
+
+
+
+ .bienvenidos{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    text-align: justify;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    background-color: beige;
+    border: 3px solid rgb(91, 87, 87);
+    border-radius: 15px;
+    
+}
+
+
+
+        
+
+
+
+
+div footer{
+    position: absolute;
+    top: 900px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+
+}
+
+
+.sobreNosotros{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    background-color: beige;
+    margin-right: 1600px;
+    border: 3px solid rgb(91, 87, 87);
+    border-radius: 15px;
+}
+
+.nosotrosPosicion{
+    position: absolute;
+    top: 300px;
+
+}
+
+article .nosotros{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    color: rgb(5, 5, 5);
+    background-color: beige;
+    border: 3px solid rgb(91, 87, 87);
+    border-radius: 15px;
+    
+}
+
+
+
+
+
+
+.casilleros{
+    width: 80px;
+    background: beige;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom red, blue);
+    
+
+
+}
+
+
+div .fotos{
+    margin-left: 200px;
+    margin-right: 400px;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+
+.textarea{
+    background-color: beige;
+    border: solid black;
+
+}
+
+.palabrasForm{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgb(238, 184, 113);
+    background-color: black;
+    border: 2px solid black
+    
+    
+}
+
+section form{      
+    background-color: beige;
+    border: solid black;
+    margin-right: 1300px;
+}
+   
+
+
+
+    
+    
+    
+
+
+
+
+
+

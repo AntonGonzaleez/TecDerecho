@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TecDerecho</title>
+  
+    <link rel="stylesheet" type="text/css" href="./../Css/estilos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  
+
+
+</head>
+<body>
+  <header>
+    <h1 class="titulo">TecDerecho</h1>
+        <nav>
+          <ul class="referencias">
+            <li class="menu"><a href="./../index.html">Inicio</a></li>
+            <li class="menu"><a href="./about.html">Sobre Nosotros</a></li>
+            <li class="menu"><a href="./cursoinvierno.html">Curso Intensivo de Invierno</a></li>
+            <li class="menu"><a href="./gallery.html">Galeria de Imagenes</a></li>
+            <li class="menu"><a href="./contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+  </header>
+  <section>
+    <h1 class="titulo">Formulario para ingresantes</h1>
+      <br />
+      <form>
+        <label class="palabrasForm" for= "nombre">
+          Nombre 
+        </label>
+        <input class="casilleros" type="text" id="nombre"/>
+        <hr />
+        <label class="palabrasForm" class="palabrasForm" for="apellido">
+           Apellido
+        </label>
+        <input class="casilleros" type="text" id="apellido"/>
+        <hr />    
+        <label class="palabrasForm" for="email">
+          Email          
+        </label> 
+        <input class="casilleros" type="text"  id="email">
+        <hr />
+        <select class="textarea">
+          <option selected="selected">Selecciona una Localidad</option>
+          <option>Buenos Aires</option>
+          <option>Ciudad de Buenos Aires</option>
+          <option>Otros</option>          
+        </select>
+        <hr />
+        <label class="palabrasForm"> 
+          ¿Cómo llegaste a nosotros?
+        </label>
+        <br />
+        <span class="palabrasForm">Redes sociales</span>
+        <input type= "radio" name="acceso"/>
+        <span class="palabrasForm">Folletos en la Universidad</span>
+        <input type="radio" name="acceso"/>
+        <span class="palabrasForm">Otros</span>
+        <input type="radio" name="acceso"/>        
+        <hr />
+        <label class="palabrasForm">
+          ¿Querés recibir Correos con informacion sobre talleres extracurriculares?
+        </label>
+        <hr />
+        <span class="palabrasForm">Si</span>
+        <input type="checkbox" name="aceptar"/> 
+        <span class="palabrasForm">Acepto los términos y condiciones</span>
+        <input type="checkbox" name="aceptar" checked="checked" />
+        <hr />
+        <label class="palabrasForm" for="feedback">
+          Envianos tu feedback para mejorar!
+        </label>
+        <br />
+        <textarea class="textarea" id="feedback" rows="8" cols="40"></textarea> 
+        <br>
+        <input type="submit" /> 
+        <input type="reset" />
+       </form>
+      </section>
+      <div>
+        <footer>
+          <ul>
+          <li class="menu"><a href="contact.html">Contacto</a></li>
+          <li class="menu"><a href="https://www.facebook.com/TecDerecho" target="_blank">Seguinos en Facebook!</a></li>
+          </ul>
+        </footer>
+      </div> 
+  </body>
+  </html>
