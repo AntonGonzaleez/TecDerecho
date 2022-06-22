@@ -30,21 +30,28 @@
  .titulo {    
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
-    color:rgb(1, 8, 10, 0.791)
+    color:rgb(1, 8, 10, 0.791);
+    background-image: linear-gradient(to bottom, beige, rgb(139, 138, 125));
+    margin-right: 1600px;
+    border: black solid;
+    border-radius: 15px;
+    
 }
 
 
 
 
+
+
 .referencias {
-    display: flex;
-    flex-direction: column;
+    display: inline;
     position: relative;
     left: 500px;
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     color: rgb(5, 5, 5);
     list-style-type: none;
+    
     
     
      
@@ -63,6 +70,7 @@
     background-color: beige;
     border: 3px solid rgb(91, 87, 87);
     border-radius: 15px;
+    background-image: linear-gradient(to bottom, beige, rgb(171, 170, 148));
     
 }
 
@@ -91,6 +99,7 @@ div footer{
     margin-right: 1600px;
     border: 3px solid rgb(91, 87, 87);
     border-radius: 15px;
+    background-image: linear-gradient(to bottom, beige, rgb(139, 138, 125));
 }
 
 .nosotrosPosicion{
@@ -111,6 +120,8 @@ article .nosotros{
     background-color: beige;
     border: 3px solid rgb(91, 87, 87);
     border-radius: 15px;
+    background-image: linear-gradient(to bottom, beige, rgb(139, 138, 125));
+
     
 }
 
@@ -120,12 +131,11 @@ article .nosotros{
 
 
 .casilleros{
-    width: 80px;
-    background: beige;
-    padding: 8px;
+    height: 25px;
+    width: 70px;
+    margin-left: 10px;
     border-radius: 10px;
-    margin-bottom: 10px;
-    background-image: linear-gradient(to bottom red, blue);
+    background-image: linear-gradient(to bottom, beige, rgb(185, 183, 163));
     
 
 
@@ -148,10 +158,10 @@ div .fotos{
 
 .palabrasForm{
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    color: rgb(238, 184, 113);
-    background-color: black;
-    border: 2px solid black
+    font-size: 16px;
+    margin: 02px;
+    border: black groove;
+    background-image: linear-gradient(to bottom, beige, rgb(139, 138, 125));
     
     
 }
@@ -160,6 +170,31 @@ section form{
     background-color: beige;
     border: solid black;
     margin-right: 1300px;
+    background-image: linear-gradient(to bottom, beige, rgb(139, 138, 125));
+}
+   
+.titulo2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color:rgb(1, 8, 10, 0.791);
+    background-image: linear-gradient(to bottom, beige, rgb(139, 138, 125));
+    margin-top: 100px;
+    margin-right: 1200px;
+    border: black solid;
+    border-radius: 15px;
+}
+
+
+.boton{
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    border: black solid;
+    border-radius: 15px;
+    padding: 09px;
+    background-image: linear-gradient(to bottom, beige, rgb(139, 138, 125));
+
+
+
 }
    
 
